@@ -10,7 +10,7 @@ function Cart({ cartItems }) {
 
   return (
     <div>
-      <h2>Cart</h2>
+      <h2>Your Cart Selections</h2>
       {cartItems.length === 0 ? (
         <p>Cart is empty</p>
       ) : (
