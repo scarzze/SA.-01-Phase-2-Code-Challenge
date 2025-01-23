@@ -3,13 +3,14 @@ import ProductList from "./components/ProductList.jsx";
 import Cart from "./components/Cart.jsx";
 import "./styles/App.css";
 
+
 function App() {
   const [products] = useState([
-    { id: 1, name: "T-Shirt", price: 20 },
-    { id: 2, name: "Jeans", price: 40 },
-    { id: 3, name: "Sneakers", price: 60 },
-    { id: 4, name: "Hat", price: 15 },
-    { id: 5, name: "Socks", price: 5 },
+    { id: 1, name: "Lamboghini", price: 200000 },
+    { id: 2, name: "Bugatti", price: 400000 },
+    { id: 3, name: "Tesla", price: 60000},
+    { id: 4, name: "Ferrari", price: 150000 },
+    { id: 5, name: "Range Rover", price: 50000 },
   ]);
 
   const [cart, setCart] = useState([]);
